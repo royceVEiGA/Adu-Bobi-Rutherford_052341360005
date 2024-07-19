@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEiGA Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <h1>VEiGA Restaurant</h1>
+    </header>
+    <nav id="side-nav" class="side-nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#book">Book a Table</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <div id="main-content" class="main-content">
+        <section id="home" class="category welcome">
+            <div class="content">
+                <img src="zz.jpg" alt="Welcome Image" />
+                <h2>Welcome to VEiGA Restaurant</h2>
+                <p>Welcome to our restaurant where we offer the finest dining experience with an exquisite menu and excellent service. Come and enjoy a memorable meal with us.</p>
+            </div>
+        </section>
+
+        <section id="menu" class="category">
+            <div class="content">
+                <h2>Menu</h2>
+                <p>Explore our delicious menu that offers a variety of dishes to satisfy your taste buds. From appetizers to desserts, we have something for everyone.</p>
+                <p>Satisfy yourself with some shots of the dishes served here:</p>
+                <div class="gallery-grid"><img src="c.jpeg"><img src="b.jpeg"><img src="d.jpeg"><img src="h.jpeg">
+                    <img src="a.jpeg"><img src="g.jpeg"><img src="e.jpeg"></div>
+                <!-- Add Menu Items Here -->
+            </div>
+        </section>
+
+        <section id="book" class="category">
+            <div class="content">
+                <h2>Book a Table</h2>
+                <p>Reserve your table in advance to enjoy a seamless dining experience. Fill in the form below to book a table at our restaurant.</p>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="date"><br><br>
+                    <label for="time">Time:</label><br>
+                    <input type="time" id="time" name="time"><br><br>
+                    <label for="people">Number of People:</label><br>
+                    <input type="number" id="people" name="people"><br><br>
+                    <input type="submit" value="Book Now">
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="category">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you. Whether you have a question or feedback, feel free to get in touch with us using the contact details below.</p>
+                <p>Address: 234 KsTU, KS 56789</p>
+                <p>Phone: (233) 456-890</p>
+                <p>Email: veiga@restaurant.com.gh</p>
+            </div>
+        </section>
+
+        <section id="about" class="category">
+            <div class="content">
+                <h2>About Us</h2>
+                <p>Learn more about our restaurant, our history, and our mission. We are dedicated to providing the best dining experience for our guests.</p>
+                <li>-- Welcome to VEiGA Restaurant!
+
+<p> VEiGA, we believe that food is not just about nourishment, but also about joy, comfort, and connection. Our founder, Maria Veiga, a passionate chef with a rich culinary heritage, envisioned a place where traditional recipes meet modern flavors. This vision has been our guiding light, influencing every dish we create and every experience we offer.</p>
+
+<p>*The VEiGA Experience*
+When you dine at VEiGA Restaurant, you’re not just a customer; you’re part of our family. Our warm and inviting atmosphere is designed to make you feel at home. Whether you’re here for a casual meal, a special celebration, or a romantic dinner, we strive to make every visit special.
+Our dedicated staff is here to provide you with impeccable service and ensure that your dining experience is nothing short of extraordinary. We believe that the perfect meal is complemented by attentive service and a welcoming ambiance.</p>
+
+*Join Us*
+We invite you to join us at VEiGA Restaurant and embark on a culinary journey like no other. Come and savor the flavors, enjoy the company, and create unforgettable memories. Thank you for being a part of our story. We look forward to welcoming you and sharing the VEiGA experience with you. </li>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
